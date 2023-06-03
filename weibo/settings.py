@@ -12,7 +12,7 @@ DEFAULT_REQUEST_HEADERS = {
     'Accept':
     'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
     'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-US;q=0.7',
-    'cookie': 'your cookie'
+    'cookie': 'SCF=AvCeCQiitU20DXIIwfwTrPnK2ORO6WDsfrMvXVN2v4Dhi5AUWD6dhw6VoVtVQkIxiyXaLIVK4dqaLDs2gEu5FcA.; SUB=_2A25JfrYBDeRhGeFG6lAW8ibNyTmIHXVqgNpJrDV6PUNbktB-LUHNkW1NflI4fG0md5lCEB2s7vFrvdlf3SbhuiQ8; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WWCPrh3Yk-Se_kY7qf8Av0b5JpX5KMhUgL.FoMReKzNeonpeo-2dJLoIp7LxKML1KBLBKnLxKqL1hnLBoMN1h2ES0zReKzf; SSOLoginState=1685767761; ALF=1688359761; _T_WM=75a48eefd981c2ac13586fe748d13023'
 }
 ITEM_PIPELINES = {
     'weibo.pipelines.DuplicatesPipeline': 300,
